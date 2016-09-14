@@ -8,12 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		04183D571D892F1100604322 /* ASRSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 04183D561D892F1100604322 /* ASRSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04183D601D892FC900604322 /* ISRDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 04183D5E1D892FC900604322 /* ISRDataHelper.h */; };
+		04183D611D892FC900604322 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04183D5F1D892FC900604322 /* ISRDataHelper.m */; };
+		04183D641D89303A00604322 /* IATConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 04183D621D89303A00604322 /* IATConfig.h */; };
+		04183D651D89303A00604322 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 04183D631D89303A00604322 /* IATConfig.m */; };
+		04183D691D89312000604322 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D681D89312000604322 /* CoreLocation.framework */; };
+		04183D6B1D89312700604322 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D6A1D89312700604322 /* AVFoundation.framework */; };
+		04183D6D1D89312D00604322 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D6C1D89312D00604322 /* AddressBook.framework */; };
+		04183D6F1D89313A00604322 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D6E1D89313A00604322 /* CoreTelephony.framework */; };
+		04183D711D89314900604322 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D701D89314900604322 /* AudioToolbox.framework */; };
+		04183D731D89314F00604322 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D721D89314F00604322 /* SystemConfiguration.framework */; };
+		04183D751D89315900604322 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D741D89315900604322 /* QuartzCore.framework */; };
+		04183D771D89316200604322 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D761D89316200604322 /* UIKit.framework */; };
+		04183D791D89316800604322 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D781D89316800604322 /* Foundation.framework */; };
+		04183D7B1D89317300604322 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D7A1D89317300604322 /* CoreGraphics.framework */; };
+		04183D7D1D89318A00604322 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D7C1D89318A00604322 /* libz.1.dylib */; };
+		04183D801D8931E200604322 /* ASRLinkUnity.h in Headers */ = {isa = PBXBuildFile; fileRef = 04183D7E1D8931E200604322 /* ASRLinkUnity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04183D811D8931E200604322 /* ASRLinkUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = 04183D7F1D8931E200604322 /* ASRLinkUnity.m */; };
+		04183D831D89323B00604322 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04183D821D89323B00604322 /* iflyMSC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04183D531D892F1100604322 /* ASRSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASRSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04183D561D892F1100604322 /* ASRSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASRSDK.h; sourceTree = "<group>"; };
 		04183D581D892F1100604322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04183D5E1D892FC900604322 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		04183D5F1D892FC900604322 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		04183D621D89303A00604322 /* IATConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		04183D631D89303A00604322 /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
+		04183D681D89312000604322 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04183D6A1D89312700604322 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04183D6C1D89312D00604322 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		04183D6E1D89313A00604322 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04183D701D89314900604322 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04183D721D89314F00604322 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04183D741D89315900604322 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04183D761D89316200604322 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04183D781D89316800604322 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04183D7A1D89317300604322 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04183D7C1D89318A00604322 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		04183D7E1D8931E200604322 /* ASRLinkUnity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASRLinkUnity.h; path = ../ASRLinkUnity.h; sourceTree = "<group>"; };
+		04183D7F1D8931E200604322 /* ASRLinkUnity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASRLinkUnity.m; path = ../ASRLinkUnity.m; sourceTree = "<group>"; };
+		04183D821D89323B00604322 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +57,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04183D831D89323B00604322 /* iflyMSC.framework in Frameworks */,
+				04183D7D1D89318A00604322 /* libz.1.dylib in Frameworks */,
+				04183D7B1D89317300604322 /* CoreGraphics.framework in Frameworks */,
+				04183D791D89316800604322 /* Foundation.framework in Frameworks */,
+				04183D771D89316200604322 /* UIKit.framework in Frameworks */,
+				04183D751D89315900604322 /* QuartzCore.framework in Frameworks */,
+				04183D731D89314F00604322 /* SystemConfiguration.framework in Frameworks */,
+				04183D711D89314900604322 /* AudioToolbox.framework in Frameworks */,
+				04183D6D1D89312D00604322 /* AddressBook.framework in Frameworks */,
+				04183D6F1D89313A00604322 /* CoreTelephony.framework in Frameworks */,
+				04183D6B1D89312700604322 /* AVFoundation.framework in Frameworks */,
+				04183D691D89312000604322 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +78,18 @@
 		04183D491D892F1100604322 = {
 			isa = PBXGroup;
 			children = (
+				04183D821D89323B00604322 /* iflyMSC.framework */,
+				04183D7C1D89318A00604322 /* libz.1.dylib */,
+				04183D7A1D89317300604322 /* CoreGraphics.framework */,
+				04183D781D89316800604322 /* Foundation.framework */,
+				04183D761D89316200604322 /* UIKit.framework */,
+				04183D741D89315900604322 /* QuartzCore.framework */,
+				04183D721D89314F00604322 /* SystemConfiguration.framework */,
+				04183D701D89314900604322 /* AudioToolbox.framework */,
+				04183D6E1D89313A00604322 /* CoreTelephony.framework */,
+				04183D6C1D89312D00604322 /* AddressBook.framework */,
+				04183D6A1D89312700604322 /* AVFoundation.framework */,
+				04183D681D89312000604322 /* CoreLocation.framework */,
 				04183D551D892F1100604322 /* ASRSDK */,
 				04183D541D892F1100604322 /* Products */,
 			);
@@ -48,6 +108,12 @@
 			children = (
 				04183D561D892F1100604322 /* ASRSDK.h */,
 				04183D581D892F1100604322 /* Info.plist */,
+				04183D5E1D892FC900604322 /* ISRDataHelper.h */,
+				04183D5F1D892FC900604322 /* ISRDataHelper.m */,
+				04183D621D89303A00604322 /* IATConfig.h */,
+				04183D631D89303A00604322 /* IATConfig.m */,
+				04183D7E1D8931E200604322 /* ASRLinkUnity.h */,
+				04183D7F1D8931E200604322 /* ASRLinkUnity.m */,
 			);
 			path = ASRSDK;
 			sourceTree = "<group>";
@@ -59,7 +125,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04183D641D89303A00604322 /* IATConfig.h in Headers */,
+				04183D801D8931E200604322 /* ASRLinkUnity.h in Headers */,
 				04183D571D892F1100604322 /* ASRSDK.h in Headers */,
+				04183D601D892FC900604322 /* ISRDataHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04183D651D89303A00604322 /* IATConfig.m in Sources */,
+				04183D611D892FC900604322 /* ISRDataHelper.m in Sources */,
+				04183D811D8931E200604322 /* ASRLinkUnity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,13 +302,25 @@
 		04183D5C1D892F1100604322 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ASRSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Confucius.ASRSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -246,13 +330,25 @@
 		04183D5D1D892F1100604322 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ASRSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Confucius.ASRSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
